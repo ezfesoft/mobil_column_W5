@@ -1,3 +1,5 @@
+
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -42,6 +44,16 @@ class _MyHomePageState extends State<MyHomePage> {
           // COLUMN WIDGET NEDIR? NASIL KULLANILIR?
           //--------------Kodları aşağıya yazınız.
           //--------------
+          Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+               Text("Merhaba"),
+              SizedBox(height: 150,),
+              Icon(Icons.home, size: 150,),
+              Container(height: 50,width: 50,color: Colors.black),
+
+            ],
+          )
           //--------------Kodları yukarıya yazınız.
           //--------------
           //--------------
